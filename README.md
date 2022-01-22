@@ -1,6 +1,7 @@
 # Haskollatz
-Haskollatz is a *Q U E S T I O N A B L E* Haskell implemetation of the famous [Collatz Conjecture] https://en.wikipedia.org/wiki/Collatz_conjecture "Math is Wild Man..." Math Problem.
-It a **slightly** optimized Delay (steps to 1) calculator.
+Haskollatz is a *Q U E S T I O N A B L E* Haskell implemetation of the famous [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) Math Problem.
+
+It is a **slightly** optimized Delay (steps to 1) calculator.
 
 ## Usage
 
@@ -45,7 +46,7 @@ Haskollatz is implemented with the unbounded `Integer` as it's number type so fe
 
 ## Building
 
-Please download and install the [Haskell Tool-stack] https://docs.haskellstack.org/en/stable/install_and_upgrade/ "Stackin" for your prefered operationg system.
+Please download and install the [Haskell Tool-stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/) for your prefered operationg system.
 Steps for windows are included here.
 
 ### Installing Stack
@@ -58,7 +59,7 @@ CMD \> winget install commercialhaskell.stack
 ### Cloning the Repo
 Using git (or the zip from GitHub) clone the repo to a folder of your choice.
 ```
-=#> git clone -R /url
+=#> git clone https://github.com/WesselBBD/Haskollatz Haskollatz
 ```
 
 ### Building Haskollatz
